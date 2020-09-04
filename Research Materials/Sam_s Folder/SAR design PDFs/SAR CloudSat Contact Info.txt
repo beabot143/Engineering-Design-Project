@@ -1,0 +1,58 @@
+NASA JPL
+
+CLOUD SAT (ONGOING)
+	uses 94GHz radar system in order to image
+	monitors clouds at ~700km away
+		pulse width 			(3.3us)
+		PRF						(4.3kHz)
+		Minimum Detectable Z*	(< -29bBZ)	Equivilant radar reflectivity that gives mean power equal to the standard deviation after integration and noise subtraction. Atmpospheric attenuation is not included
+		data window 			(0 - 25km)
+		dynamic range 			(70B)
+		integration time 		(0.16)
+		vertical resolution		(500m)
+		cross-track resolution	(1.4km)
+		along-track resolution	(1.7km)
+		data rate				(20kbps)
+	Project contacts
+		Graeme Stephens - principal investigator	JPL
+		Deborah Vane	- principal investigator	JPL
+		Dave Winker		- principle investigator	NASA
+		Jacques Pelon	- co-principle investigator Institut Pierre Simon Laplace
+		Arlindo da silva - NASA, goddard space flight center
+		Anthony Del Genio - NASA Goddard institute for space studies
+		Durden Stephen 	- JPL
+		Chris Hosteller	- NASA Langley Research Center
+		Eastwood Im 	- JPL
+		Eric Jensen		- ARC
+		Brian Kahn 		-JPL
+		Hiroshi Karmagai - Communications research laboratory
+		Matthew Lesock	- JPL
+		Hal Maring		- NASA HQ
+		Kentaro Suzuki	- JPL
+		simone Tanelli	- JPL
+		Duane Waliser	- JPL
+		Dong Wu			- JPL
+			
+		MCGILL UNIVERSITY CONTACTS
+			Pavlos Kollias	-	expert in radar applications in weather and climate research
+				puclished a paper on constellation satellites for weather monitoring
+					if he's not a dick, might be a key info source
+					
+			Jean-Pierre Blanchet	-	modelling radiation clouds and aerosol interactions 
+				got degree from mcgill, but now a professor at university of Quebec of Montreal
+				another key guy
+		
+	
+QuikSCAT (1999 - 2009)
+	used radar to monitor widn currents
+	total weight: 2000 + 970kg
+	propelled craft (hydrazine blowdown)
+	ground communication frequency 2-4GHz range		
+		2Mbps
+	craft power consumption 874W
+	13.4 GHz, 110 watt pulse at 189Hz pulse repitition freequency(PRF)
+		the higher the PRF, to higher the average power consumption
+			we ant low PRF, but high cluster
+	1m diameter roating dish for two spot beams
+	2000kg
+	power 200W40kbps

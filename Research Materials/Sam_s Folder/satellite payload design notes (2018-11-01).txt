@@ -1,0 +1,57 @@
+SIX MAIN TYPES OF SATELLITES:
+	1.	scientific research (gather data about the earth and/or changes in environment)
+	2.	Weather (take pictures of the earth with an infrared camera and study the gas/clouds)
+	3.	communication(sends data to largee dish on ground station)
+	4.	Navigation(GPS)
+	5.	Earth Observation
+	6.	Military (spy satellites for early missile detection)
+
+success rate of most cubesat missions is actually around 50%
+
+SATELLITE MUST BE DESIGNED TO PERFORM PERIODIC RESETS IN ORDER TO AVOID DAMAGE
+
+	
+ONE KEY ASPECT OF SAT COMM DESIGN IS THAT THE EARTH IS ONE OF YOUR HIGHEST SOURCES OF NOISE
+	if your satellite faces in that direction, then yo will have considerable noise on your lines
+	
+lets think what's actually possible for right now
+
+maybe build a noise harvester so that any that leaves the atmosphere is reflected back to the surface somewhere?
+	can't because 25MHz at 1/100th of signal is still 12 cm of wire. (maybe make flexible HDTV loop antenna for power harvesting?)
+	maybe go for RF harvester for system power, (more robust than solar since not sun dependant)
+		consumes power that doesn't do useful work (earth generates it anyways)
+		not done before?
+	
+we can a build a pcb
+we can build the com system
+
+what can't be do?
+glasswork
+metalwork
+anything that involves building fixtures
+
+ok
+so lets stick with something thats more softwarre or electronics oriented in terms of payload
+
+most involve communication, distance sensing, or image processing whcih is what the prof doesn't want us to do.
+	last resort then
+		using SNR to measure dust or particulate obstruction between system nodes
+		using communication to determine the approximate distance between nodes for distance sensing
+		
+what information/data needs to be gathered from space
+	Nasa uses big data in order to do simulations(but that's all on the ground)
+		its too expensive to do any kind of testing in space, scaled down or not
+			whatever we put into space needs to do good work that can't be simulated on earth
+			
+one thing that hasn't been done yet(i don't think) is cubesats that can remotely perform new research and tests without resending a new one up
+	limited to only certain things(depending on what systems are available)
+		main thing would really low power consumption, and maintaining signal link with satellite 300km above earths surface
+		one article suggests implementing FPGA to onboard satellite for upgradability
+			upgradability is limited to power rating (if new tests consume too much power, then can't upgrade it)
+
+			
+Dellingr: the little satellite that could
+	payload activated itself pre-flight despite timed delay
+		battery was drained before mission began
+	resetted itself more often than needed (prevented communication with ground system)
+		ground team had to jam the system with repeated signals to trigger power-rerset(turning computer on-off)

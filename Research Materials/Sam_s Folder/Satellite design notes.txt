@@ -1,0 +1,64 @@
+Satellite Project
+
+	Based on both the kicksat and Starshot (Prof says its google singularity, but these match the description)
+	
+	Kicksat Example
+		3.5 x 3.5 cm PCB board of total mass ~4grams
+		System Overview:____________
+			Magnetometer & Gyroscope__________________________________________________________________________ 
+				Magnetometer determines direction of earth (assuming it's the strongest magnetic field source)
+				Then with the gyroscope, determines orientation relative to the earth (must be able to calculate this)
+				
+			MCU__________________________________________________________________________________________
+				used to calculate satellite orientation to earth, and send that as signal through antenna
+			
+			Antenna______________________________________________
+				Used to send signal through vaccuum and earth atm
+				frequency tbd
+				
+			Solar Cells___________________________________________________________________
+				Used as onboard power source (constitues approximately half of the board )
+			
+		Achievements:_________________________________________________
+			First to ever send satellite as light and small into orbit
+				
+		Still to achieve:_________________________________________________________________________
+			cannot be sent alone; needed to be onboard of a "mother satellite" that was way larger
+			data was not very useful (more proof of concept than actual product)
+				
+	Starshot Example
+	
+		Led by Stephen Hawking (He's dead now, so this is probably close to cancelled)
+			satellite meant to be send to explanets
+			Planned to use 100GW laser as optical propulsion "fuel supply"
+			meant to go to I think the alpha centauri system and then send data
+			
+WHAT CAN WE DO TO IMPROVE ON THESE DESIGNS?
+	well, apparently the profs made one thats 10 grams (or kg I forget).
+		as far as specs go, it shouldn't be too hard to replicate the design used by kick sat (fairly standard imo)
+			main issue will be design verification, because we can design it for earth but not for space
+			best would be if there was some way that we could have an actual module in orbit 
+			
+	forget all of that. The minimum weight requirement may make our design cheaper, but they neglect to inform you that they can't be sent
+	on their own. They need another satelite in order to be deployed. These satelites also can't adjust for position, since any propuslion system 
+	will significantly increase our weight cost.
+	
+	things to consider:
+		do we want to just make it even more light and small? (flex PCB, chinese parts, etc.)
+		make it into an IC? (maybe free; will definately be time consuming; why even if on market already?)
+		
+		Add IR laser communication?(Higher data rates than RF; uncharted waters; again would be great if physical demonstration was possible of system)
+		
+		how do we demonstrate something awesome if all we have is a tiny little board?
+			if we can we'll borrow the liquid engine rocket from rpg
+			
+		Do we want to add propulsion AND make as small as possible?
+		
+		what is our satellite for? (obviously commercial would be in orbit use)
+			faster streaming service? if you can achieve 200Gbs, the skies the limit om data transfer
+			so long as IR can be beamed down safe and soundly, no problems
+			maybe think more commercial than anything
+			
+			infrastructure costs would completely vanish if we could cheaply launch a network of satellites up to space
+				apparently bullets cause too much stress on component
+

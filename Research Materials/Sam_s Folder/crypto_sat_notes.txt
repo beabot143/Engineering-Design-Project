@@ -1,0 +1,18 @@
+CRYPTO, and how it can relate to space
+
+all crypto is a large list/ledger of a certain type of data (transactions, or contracts between parties, etc)
+	hashed with a certain algorithm for sercurity
+	anybody who's able to solve the hash gets a coin
+	but the value comes from the stored information always being accessible, and the security is that nobody can access it?
+	
+	if we send crypto beacons up into space, unless we can guarantee a communication link between them, then there's no point.
+		crypto only works when you have communication
+		
+	for ethereum, the algorithm shifts the difficulty of the program to maintain a certain level of difficulty in solving the hash (12-15s)
+	
+	if there was a way to combine space mapping data and crypto, maybe we could generate some kind of interest in the subject
+		the more tokens (picosats) you buy, the higher the resolution of our space map, and the more coins you can generate
+			what happens when you generate too many coins and you saturate the entire orbitting space with garbage?
+			
+	basically the XYO netowrk is saying that theyll put RFID tags on everything, that will be recorded by some IoT device, and then stored as a ledger.
+		IDK how difficult this is, but the hard part would be to create theri sentinels

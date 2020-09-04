@@ -1,0 +1,52 @@
+Cubesat 
+EDP meeting 
+October 25, 2018
+
+5kg satellite is still commercialy viable
+
+camera 		is classic (we want to disrupt)
+atmosphere 	is classic
+
+anything dealing with biomedical
+	bacterial/life 	analysis
+	material 		analysis
+	
+	some interesting payload that can be miniaturized 
+	
+	we need to figure out what research can be done at 300km environment
+	
+	10x10x10cm max
+	100g
+	
+	what things need to be monitored at low pressure and high radiation
+	
+	space junk
+		small massive inductive pulse
+		.
+		for LEO they suggest using gas explosives
+			not easy for us to do: need oxidizer with fuel; must be pressurized; we can't pay for that
+			
+		one easy metric is this: the higher the power consumption, the higher to weight and cost. BUT, the more work we can do.
+		
+		catching/pulling it with magnets will be impossible
+			what about mapping? most services nowadays use machine learning and neural networks to predict trajectories of orbiting satellites
+				this only works if the space debris doesn't increase
+					particulate dust and paint flecks are an issue that have yet to be resolved
+						this is hazardous to space station and cant be detected by radar
+						everything is flying at each other at 10km/s, so explosions happen
+						last year recently launched a satellite to monitor and detect space debris
+							used two large sheets (one in front of another) and determined the speed
+								reason why it was sheets is because alot of debris isn't magnetic, and ultrasonic doesn't work without air
+										
+						if we can help build a map of the space debris, maybe we can begin to determine betteer mapping (same way they do for large)
+						map out large clouds and such, maybe assist in the development of a collection system
+						
+						systems like this have been done before, but nothing public and light, and a map hasn't been created yet
+						
+						need to come up of a sensory system for small particulate matter, and a communication system
+							maybe a bunch of tiny sensors linked together by physical thin wire tether(acts as communication too)
+							
+						how about RF communication between a bunch of modules? signal strength can be measured, and depending on the attenuation and duration of attenuation, we can determine the debris speed and direction (if we had mimo array)
+									
+									
+

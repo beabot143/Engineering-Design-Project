@@ -1,0 +1,11 @@
+femto sat
+100g
+<1W
+
+cubesat
+1kg
+2W
+
+software disrupt
+	SDR in space
+	

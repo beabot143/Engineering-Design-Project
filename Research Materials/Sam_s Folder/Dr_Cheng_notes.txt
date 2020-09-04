@@ -1,0 +1,39 @@
+Synthesis COnditions
+type
+	125C above
+	form at room temperature (3-5)
+	
+	lower temperature smaller MOF (need to wait longer ~ 10days)
+		transparent (seethrough) tendo effect
+	
+	research into making smaller
+		currently as big as 10microns
+			surface alignment plays a big issue in this
+		
+	
+	MOF system
+	MIL system in EU
+	solvent is dmf 
+		hydolizes metals, starts to form bonds with ligands
+		if stored in dmf, can keep in seperate containers
+		
+	ultrasound could induce nucleai
+		bc bubbles 
+		
+		
+Characertiztion of size nm - um
+	size of crystal - SEM not good for nm
+	
+	need to know material grows at zero 
+	
+	maximizing surfacce vs. volume.
+	
+	neutron diffraction needs to knock out the electrons to create diffractions, so high energy
+	
+	unless they form covalent bonds, 
+	
+	one way is FTIR to quantify the sample size and raman scattering 
+		once we find the unique bench
+	
+	
+	

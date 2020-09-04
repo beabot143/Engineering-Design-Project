@@ -1,0 +1,35 @@
+CURRENT REQUESTS:
+
+Research how to make android into phone
+	not good; power consumption alone requires excessive weight (~150g)
+		if 100g satellite allow, possible to create easy alternative to circuit board design using smartphone board
+		aveage power consumption ~10W, so assume about 20W power consumption
+		quickest solutiion would be to buy android TV box or android phone and see if it will work (still size and power limits)
+			but it will technicallty work
+			may be able to atach camera module to it.
+			
+		Big issue is that while we design for -40, it will be colder (space afterall)
+			prof says its fine; I say otherwise
+			
+		
+		
+		
+MY REQUESTS:
+	find a small camera and figure out a way to use it in -60C.
+	
+	A big-ass weather balloon is needed to carry a 250g weight up to 30km
+	
+	probably need to go for mylar balloons since they have high tensile strength
+	
+	helium and hydrogen will leak out of the balloon as the pressure decreases outside
+		methane may be a good alternative, but will require more gas (not good)
+		nitrogen is also possible, but your lift:weight ratio is low (only 3%)
+		
+	lift force is simply the difference in densities
+		
+		F_Buoyant = (d_air - d_gas)× Volume_gas × g
+				d_air ~= 1.225kg/m3
+				
+				d = s * t  +  1/2 * a * t^2
+				(0.5a)t^2 + (o)t -d = 0
+				t = sqrt(2d/a)
